@@ -56,5 +56,5 @@ Si buscas a alguien que entienda el **"qué"** y el **"por qué"** antes de pasa
 
 ---
 <div align="center">
-  Desarrollado con ☕ y disciplina por <b>Maximiliano Guaymás</b>.
+  Desarrollado por <b>Maximiliano Guaymás</b>.
 </div>
