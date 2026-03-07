@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { Linkedin, Github, Download, Code2, Terminal, Cpu, Database, Server } from 'lucide-react';
+import { Linkedin, Github, ExternalLink, Code2, Terminal, Cpu, Database, Server } from 'lucide-react';
 
 const techStack = [
   { name: 'React', icon: Code2 },
@@ -70,13 +70,14 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row items-center gap-6 mt-10 md:justify-start">
           <motion.a 
-            href="/CV.pdf" 
+            href="https://drive.google.com/file/d/19Edt0Gge44kJ6GsDUJ5YoYeGuKQMD2qQ/view?usp=sharing" 
             target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-2 bg-foreground text-background px-8 py-4 rounded-2xl font-bold text-sm uppercase tracking-widest transition-all shadow-2xl shadow-foreground/10 hover:shadow-accent/40 hover:bg-accent hover:text-white"
+            className="inline-flex items-center gap-2 bg-foreground text-background px-8 py-4 rounded-2xl font-bold text-sm uppercase tracking-widest shadow-2xl shadow-foreground/10 transition-all"
           >
-            Descargar CV <Download size={18} />
+            Ver CV <ExternalLink size={18} />
           </motion.a>
 
           <div className="flex gap-5 justify-center items-center">
