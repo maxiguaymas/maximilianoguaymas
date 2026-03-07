@@ -68,7 +68,7 @@ export async function sendEmail(formData: FormData) {
             <!-- Footer -->
             <div style="background-color: #f3f4f6; padding: 20px 30px; text-align: center;">
               <p style="font-size: 12px; color: #9ca3af; margin: 0;">
-                Este es un mensaje automático enviado desde <a href="https://tu-portfolio.com" style="color: #6b7280; text-decoration: underline;">maxiguaymas.dev</a>
+                Este es un mensaje automático enviado desde <a href="https://maximilianoguaymas.vercel.app/" style="color: #6b7280; text-decoration: underline;">maxiguaymas.dev</a>
               </p>
               <p style="font-size: 12px; color: #9ca3af; margin-top: 4px;">
                 Salta, Argentina
