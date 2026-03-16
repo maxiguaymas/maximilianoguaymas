@@ -97,6 +97,9 @@ export default function Contact() {
                 <textarea name="message" required rows={5} className="w-full p-4 rounded-2xl bg-foreground/[0.03] border border-border-custom focus:border-foreground/30 outline-none transition-all resize-none" placeholder="¿En qué puedo ayudarte?"></textarea>
               </div>
 
+              {/* Honeypot */}
+              <input type="text" name="honeypot" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+
               {status === 'success' && (
                 <p className="text-green-500 text-sm font-medium animate-pulse">¡Mensaje enviado con éxito! Revisá tu casilla de correo.</p>
               )}
