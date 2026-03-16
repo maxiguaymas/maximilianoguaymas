@@ -42,13 +42,13 @@ export default function Contact() {
               </p>
             </div>
            <div className="space-y-6">
-              <a href="mailto:maximiliano.guaymas480@gmail.com" className="flex items-center gap-4 group">
+              <a href="mailto:maxikasta480@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-full bg-foreground/5 flex items-center justify-center group-hover:bg-foreground group-hover:text-background transition-all">
                   <Mail size={20} />
                 </div>
                 <div>
                   <p className="text-xs uppercase font-bold tracking-widest opacity-40">Email</p>
-                  <p className="font-medium">maximiliano.guaymas480@gmail.com</p>
+                  <p className="font-medium">maxikasta480@gmail.com</p>
                 </div>
               </a>
 
@@ -101,7 +101,7 @@ export default function Contact() {
               <input type="text" name="honeypot" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
 
               {status === 'success' && (
-                <p className="text-green-500 text-sm font-medium animate-pulse">¡Mensaje enviado con éxito! Revisá tu casilla de correo.</p>
+                <p className="text-green-500 text-sm font-medium animate-pulse">¡Mensaje enviado con éxito!</p>
               )}
               {status === 'error' && (
                 <p className="text-red-500 text-sm font-medium">{errorMessage}</p>
